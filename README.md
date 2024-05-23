@@ -9,27 +9,34 @@
 Un gran número de personas al momento de realizar un viaje buscan realizar actividades recreativas, visitar exhibiciones y sitios de interés, comer en buenos restaurantes, o simplemente pasar un rato de entretenimiento, incluso al encontrarse en puntos diferentes de su propia ciudad, sin embargo no conocen sus alrededores, que tipos de lugares les gustaría visitar o simplemente requieren crear un plan para los días que estarán de viaje. Se propone el desarrollo de un sistema de búsqueda de información turística inteligente, utilizando técnicas de recomendación con inteligencia artificial y sistemas de búsqueda y planificación de viajes, con el objetivo principal de servir como un guía turístico a los usuarios brindando sugerencias de los mejores sitios (restaurantes, hoteles, lugares de interés, etc.) basados en sus gustos y preferencias y en función de su ubicación actual, y, por medio de la herramienta de creación de planes de viaje,  el usuario pueda organizar mejor sus actividades y posibles sitios de interés.
 Palabras claves – Proyecto modular, Inteligencia artificial, Plan de viaje, API, Google Places, Google Maps, Firebase, Filtro colaborativo, TypeScript, JSON, Angular, NoSQL, MVC, Scrum, Microservicio.
 
-## Info proyecto:
+## Informacion proyecto:
 Link despliegue: https://clevertrip-59cb1.web.app/
 Versión actual del código: CleverTrip 1.0
 Licencia legal código: MIT Licence
 
 ## INTRODUCCIÓN
 Desde siempre las personas han tenido la necesidad de buscar entretenimiento y actividades durante sus viajes o mientras disfrutan de su tiempo libre y aún más cuando no se encuentran en lugares no familiares o poco conocidos para ellos.
+
 La mayoría de los casos,  las personas se ven limitadas a visitar únicamente lugares que ya conocen o  basarse exclusivamente en recomendaciones de sus amigos y familiares. En otras circunstancias, se encuentran sin ninguna referencia, lo que restringe considerablemente la posibilidad que tienen de descubrir nuevas ubicaciones que podrían resultar de su agrado y que, quizás, se hallan a pocos pasos de distancia, permaneciendo sin ser descubiertas hasta el momento.
-	Después de identificar anteriormente las limitantes que puede tener el público, surgió el interés de brindar a las personas una manera sencilla y cómoda de buscar y encontrar nuevos lugares de interés que de otra forma pudieran no haber sido descubiertos, además de brindar la herramienta de plan de viaje para que los usuarios puedan aprovechar el tiempo de su viaje al máximo al ya tener una planeación previa del mismo.
-	Entre los beneficios que se pueden listar de implementar una nueva forma para descubrir locaciones se encuentran y una herramienta para organizar los viajes futuros:
-Recomendaciones basadas en los gustos del usuario.
-Búsqueda en los alrededores de la ubicación actual del usuario y en cualquier lugar del planeta.
-Filtros adaptables a las necesidades de cada persona, para realizar búsquedas más precisas.
-Amplia gama de resultados de búsqueda, incrementando la posibilidad de descubrir nuevas locaciones de interés para el usuario.
-Dar libertad al usuario para crear y planear de manera agradable los próximos viajes a realizar.
-Asistir constantemente al usuario durante su viaje.
+
+Después de identificar anteriormente las limitantes que puede tener el público, surgió el interés de brindar a las personas una manera sencilla y cómoda de buscar y encontrar nuevos lugares de interés que de otra forma pudieran no haber sido descubiertos, además de brindar la herramienta de plan de viaje para que los usuarios puedan aprovechar el tiempo de su viaje al máximo al ya tener una planeación previa del mismo.
+
+Entre los beneficios que se pueden listar de implementar una nueva forma para descubrir locaciones se encuentran y una herramienta para organizar los viajes futuros:
+- Recomendaciones basadas en los gustos del usuario.
+- Búsqueda en los alrededores de la ubicación actual del usuario y en cualquier lugar del planeta.
+- Filtros adaptables a las necesidades de cada persona, para realizar búsquedas más precisas.
+- Amplia gama de resultados de búsqueda, incrementando la posibilidad de descubrir nuevas locaciones de interés para el usuario.
+- Dar libertad al usuario para crear y planear de manera agradable los próximos viajes a realizar.
+- Asistir constantemente al usuario durante su viaje.
+
 Además, se ha identificado la necesidad de las personas de optimizar al máximo su tiempo durante cualquier viaje. En respuesta a ello, se ha introducido una metodología para planificar los lugares a visitar, presentándose en un formato de itinerario que facilita la organización y ejecución de las actividades deseadas, además de una forma de establecer una ruta a seguir durante el viaje.
-II. TRABAJOS RELACIONADOS
-Antes de comenzar el desarrollo, y durante el mismo se consultó de manera constante aplicaciones o webs similares al proyecto que se llevaba a cabo. En dicha investigación se encontraron diversos proyectos que servían como solución al problema que se planteó previamente, tanto enfocadas en dar un servicio de información, búsqueda y recomendación de posibles destinos de viaje. 
+
+## TRABAJOS RELACIONADOS
+Antes de comenzar el desarrollo, y durante el mismo se consultó de manera constante aplicaciones o webs similares al proyecto que se llevaba a cabo. En dicha investigación se encontraron diversos proyectos que servían como solución al problema que se planteó previamente, tanto enfocadas en dar un servicio de información, búsqueda y recomendación de posibles destinos de viaje.
+
 A continuación se describen las aplicaciones que se encontraron:
-TripAdvisor
+
+### TripAdvisor
 TripAdvisor[1] es una plataforma web y una aplicación móvil que proporciona información sobre hoteles, restaurantes, atracciones y actividades turísticas en todo el mundo. También cuenta con una función de recomendaciones personalizadas basadas en tus preferencias y comportamiento de navegación. TripAdvisor fue fundada en febrero de 2000 por Stephen Kaufer y Langley Steinert en Needham, Massachusetts, Estados Unidos. Ofrece servicios gratuitos, pero también genera ingresos a través de publicidad y reservas en línea.
 Sin embargo, esta llega a tener ciertos problemas:
 La búsqueda aunque funciona correctamente, esta es algo limitada con pocos filtros de primera mano (solo categorías generales), enfocándose más en la recomendación constante. Para poder encontrar filtros más específicos se debe dar muchos pasos.
