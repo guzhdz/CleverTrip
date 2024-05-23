@@ -92,6 +92,7 @@ Ya realizadas las investigaciones y seleccionadas las tecnologías se realizaron
 
 Fig. 1 Camino de pantallas
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/a2fa208d-b136-40c1-a772-3d81ef2a6870)
 
 Fig. 2 Diseño preliminar de vistas
 
@@ -128,12 +129,14 @@ Se formuló una nueva funcionalidad “Tour de viaje” a partir de las observac
 Al ingresar a la plataforma el usuario se encontrará con una página de bienvenida donde explicará a grandes rasgos la funcionalidad de la aplicación y permitirá al mismo iniciar sesión o registrarse.
 La aplicación demanda el registro de cuenta de usuario para su utilización, por lo tanto según si el usuario desea registrarse o iniciar sesión, este deberá clicar en  el respectivo botón.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/b719b057-4c6f-4423-a9ea-34b32817dc9e)
 
 Fig. 3 Bienvenida
 
 ### Inicio de sesión
 En la página de inicio de sesión se le permitirá al usuario iniciar con un correo y contraseña o en su defecto con una cuenta de Google, se escogió este método extra de inicio de sesión debido a las facilidades, ventajas y rapidez que aporta el uso de las tecnologías Google en el sistema para el inicio de sesión. También se le presenta la posibilidad de recuperar la contraseña o ir a la página de registro.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/826ce836-003c-422a-8a3b-bdec0161ed14)
 
 Fig. 4 Inicio de sesión
 
@@ -141,44 +144,52 @@ Fig. 4 Inicio de sesión
 Dentro de la página de registro se presenta un formulario donde pide los datos para registrar al usuario, entre ellos:  correo, contraseña y nombre de usuario; cumpliendo con los requisitos necesarios, el usuario será capaz de registrarse. También se le presenta la posibilidad de navegar a la paginas en inicio de sesión en caso de ya poseer una cuenta.
 Nota: Es necesario el validar el correo con el que se registre el usuario, en caso de haberse registrado de manera convencional (No mediante Google) de lo contrario no le permitirá acceder al sistema al usuario.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/1239d9e7-fd0c-4ae0-a97c-32697cf0df24)
+
 Fig. 5 Registro de cuenta
 
 ### Página principal
 Iniciada la sesión al usuario se le presenta la página principal donde aparecerán recomendaciones de locaciones en base a calificaciones que da el usuario dividido en categorías. También se presenta una barra de búsqueda desde donde el usuario podrá ingresar palabras clave para realizar una búsqueda general de localidades en base a lo anteriormente escrito o si desea ir directamente a la creación de planes de viaje. Además de un menú lateral y botones de categoría que permite navegar a las distintas funcionalidades de la aplicación.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/c5bf8720-0e61-405e-be36-858083e5a69a)
 
 Fig. 6 Página principal
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/8eec40ab-072f-43e0-947d-d7b855280b17)
 
 Fig. 7  Recomendaciones
+
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/f7cb3047-ca84-4d2c-884a-bea2163703a9)
 
 Fig. 8 Menú lateral
 
 ### Búsqueda general
 En la página de búsqueda general se presentan los resultados de la búsqueda realizada mediante la barra de búsqueda con una serie de filtros y un menú de categorías. El menú permite acceder a los resultados de búsqueda en base a cierto filtro de categoría y cada una de ellas tiene sus propios filtros de subcategorías, además de tener la capacidad de ordenar los resultados (Orden Alfabético Ascendente, Orden Alfabético Descendente y Orden según la calificación “rating” de los resultados). Dentro de la página se presenta de nuevo la barra de búsqueda para realizar una nueva y al seleccionar en una locación se presenta un diálogo mostrando la información relacionada a la misma.
 
-
-
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/50e2da32-71da-4b58-b7f3-6077936bf29e)
 
 Fig. 9 Búsqueda general
 
 ### Diálogo de información de locación
 Dentro del diálogo de la información sobre la locación, se presenta a detalle todos los datos que se tienen de dicha locación al igual que sus reseñas, el usuario es capaz de agregar el lugar su lista de favoritos, lista de interés, un plan de viaje ya creado o calificarla con una serie de botones en la parte inferior. Se presenta además un botón que envía al usuario a la página de ruta de viaje.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/361316d1-c056-4f5f-a7cd-5b45c87c9895)
 
 Fig. 10 Diálogo de información de locación
 
 ### Ruta de viaje
 Dentro de la página de ruta de viaje se presenta al usuario un mapa con una ruta a seguir desde su ubicación hasta el destino (locación anterior) en distintos modos de transporte (automóvil, caminando, bicicleta, transporte público), estos modos pueden ser seleccionados por una serie de botones, actualizando la ruta, tiempos estimados y distancias a recorrer cada vez que se selecciona un medio de transporte distinto.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/5ae2fbc5-a5bd-4f7f-b267-e20f7833e10b)
 
 Fig. 11 Ruta de viaje
 
 ### Búsqueda categórica
 Dentro de la pagina de busqueda categórica (accesible mediante alguno de los botones de la página principal que tiene una categoría), se presentan los resultados de una búsqueda realizada en base a una categoría de todas las locaciones cercanas a la ubicación actual del usuario, es una forma de realizar una búsqueda rápida de lo necesario en ese momento y de sitios de fácil acceso para el usuario. En esta página el usuario podrá filtrar en base a subcategorías como también ordenar los resultados en base a popularidad u orden alfabético (Ascendente o Descendente). Al igual que en la búsqueda general si una locación es seleccionada se presentará el diálogo de la información relacionada a la misma.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/5616999c-657f-4519-8d45-e13dda4c8230)
 
-Fig. 12 Búsqueda general
+Fig. 12 Búsqueda categorica
 
 ### Dashboard
 Dentro de la página de Dashboard se presenta la información general de la cuenta del usuario en la plataforma, dando la posibilidad de configurarla en cualquier momento. Además se muestran tres secciones importantes: favoritos, planes de viaje e historial. Estas secciones pueden ser seleccionadas mediante un pequeño menú al inicio de la sección y también mediante el menú lateral.
@@ -186,9 +197,11 @@ La sección de favoritos presenta una lista de las locaciones que el usuario hub
 Dentro de la sección de planes de viaje se presentan dos listas, una mostrando los viajes que el usuario ha creado y la segunda mostrando la lista de interés del usuario, siendo locaciones que le interesa visitar y agregar en alguno de sus planes de viaje. De la lista de viajes, se permite eliminarlos o ver sus detalles, estos serán desplegados en la parte inferior de las listas, mostrando la información general del viaje, pudiendo modificar los horarios y el nombre, así como agregar locaciones de la lista de interés al propio viaje y dándole un horario específico, además de brindar la posibilidad de generar un tour, donde lo enviará a la página de Tour de viaje
 De la lista de interés se permite eliminar alguna locación de la lista, agregarla a uno de los viajes actuales o ver los detalles (abriendo el diálogo de su información relacionada).
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/c09baeb0-9696-4307-8758-ed47b7996365)
+
 Fig. 13 Dashboard (Planes de viaje)
 
-
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/d2af6e1f-69c5-4ff5-9c1b-06353bfa87f7)
 
 Fig. 14 Dashboard (Detalles del Plan de viaje)
 
@@ -202,6 +215,7 @@ Tour Recomendado: Se calculan las rutas en base a la cercanía de los lugares a 
 
 Por último se tiene la opción de generar cada una de las rutas en el medio de transporte que el usuario desee, ya sea caminando, en bicicleta, en automóvil o en transporte público.
 
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/ee6528c1-cab8-4cf5-828c-f23aa5078c56)
 
 Fig. 15 Tour de viaje
 
@@ -309,8 +323,7 @@ Sistema utilizado: El sistema de recomendaciones de filtrado colaborativo[24], s
 Función dentro de la aplicación: El usuario tiene una lista de sitios a los que le ha dado cierta puntuación entre 1 (no me gusta), 2 (me gusta) y 3 (me encanta).
 Al calcular la distancia euclidiana entre usuarios, obtenemos un porcentaje de similitud, este representa que tanto un usuario se parece, en cuanto a gustos a otro, con esto podemos recomendar a nuestro usuario objetivo los sitios que otros usuarios parecidos han calificado. Por lo que el algoritmo es capaz de identificar patrones de similitud entre usuarios.
 
-
-
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/80a5ca2f-7dc1-47a1-a8eb-703ff2175a70)
 
 Fig. 16 Ejemplo de recomendación
 
@@ -327,6 +340,8 @@ Una arquitectura de microservicios divide una aplicación en una serie de servic
 Así el proyecto es dividido en módulos donde mediante los microservicios cada módulo se encarga de una tarea específica como: 
 - Gestión de Base de datos
 - Obtención de datos de las API de Google
+
+![image](https://github.com/guzhdz/CleverTrip/assets/89165084/3461821b-2e3f-467e-be9b-e8862fabb178)
 
 Fig. 17 Arquitectura modular propuesta
 
